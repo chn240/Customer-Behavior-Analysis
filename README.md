@@ -1,7 +1,9 @@
 📖 Overview
+
 This project is an end-to-end data analytics study of 3,900 customer transactions. The goal was to identify key drivers of revenue, customer loyalty, and product performance. By building a data pipeline from Python to PostgreSQL, this project simulates a real-world business intelligence workflow to provide actionable recommendations for marketing and inventory strategies.
 
 💾 Dataset
+
 The analysis uses a transactional dataset comprising 3,900 rows and 18 columns.
 
 Demographics: Age, Gender, Location, Subscription Status.
@@ -17,6 +19,7 @@ Standardized all 18 column names to snake_case for database consistency.
 Imputed 37 missing values in the Review Rating column using category-specific medians.
 
 🛠️ Tools Used
+
 Python (Pandas, NumPy): For data extraction, cleaning, handling missing values, and feature engineering.
 
 PostgreSQL: For structured data storage and complex business logic queries.
@@ -24,6 +27,7 @@ PostgreSQL: For structured data storage and complex business logic queries.
 Power BI: For creating an interactive dashboard to visualize trends.
 
 🔄 Project Steps
+
 1. Data Cleaning & Engineering (Python)
 Ingestion: Loaded raw CSV data using Pandas.
 
@@ -63,6 +67,7 @@ Dashboard
 The dashboard highlights that subscribers have a significantly higher retention rate and that specific product categories drive the majority of seasonal revenue.
 
 📈 Key Results
+
 Subscriber Value: Subscribers consistently show a higher average transaction value than non-subscribers.
 
 Loyalty: A distinct segment of "Returning" customers was identified as a prime target for loyalty programs.
